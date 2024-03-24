@@ -31,7 +31,10 @@ const ResumeAnalyzerApp = () => {
         <div className={styles.uploaderWrapper}>
           <p className={styles.instructionsText}>Upload your resume to know your worth.</p>
           <ResumeUploader setIsLoading={setIsLoadingResume} setResumeText={setResumeText} />
-          {(isLoadingResume || isLoading) && <div className={styles.loadingSpinner}></div>}
+          {(isLoadingResume || isLoading) && 
+            <div className={styles.loadingContainer}>
+              <div className={styles.loadingSpinner}></div>
+            </div>}
         </div>
       ) : (
         <ResumeWorth resumeWorth={completion} />

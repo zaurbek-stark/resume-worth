@@ -16,6 +16,12 @@
   margin-top: 10px;
 }
 
+.loadingContainer {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
 .loadingSpinner {
   display: inline-block;
   margin: 30px auto;
