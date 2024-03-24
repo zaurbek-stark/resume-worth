@@ -1,0 +1,37 @@
+.fileUploadBtnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.instructionsText {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.mainBtn {
+  background: linear-gradient(45deg, #ffc75d, #ffc708);
+  box-shadow: 0 0 24px #ffb20861;
+  border: 2px solid #ffe825;
+  border-radius: 100px;
+  transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  color: #09090b;
+  cursor: pointer;
+}
+
+.mainBtn:hover {
+  background-color: #ffc75d !important;
+  box-shadow: 0 0 34px #ffb20861 !important;
+  text-shadow: 0 0 4px #ffe825;
+  border-color: #ffe825 !important;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

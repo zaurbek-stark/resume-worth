@@ -1,0 +1,42 @@
+.uploaderWrapper {
+  width: 500px;
+  margin: auto;
+  padding-bottom: 200px;
+}
+
+.instructionsText {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.loadingSpinner {
+  display: inline-block;
+  margin: 30px auto;
+  width: 30px;
+  height: 30px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  border-top-color: #ffc75d;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
