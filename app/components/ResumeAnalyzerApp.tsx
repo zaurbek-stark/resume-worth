@@ -16,13 +16,13 @@ const ResumeAnalyzerApp = () => {
   } = useCompletion({
     api: '/api/resume',
   });
-  console.log('completion:', completion);
 
   useEffect(() => {
     const getResumeWorth = async (text: string) => {
       const messageToSend = `RESUME: ${text}\n\n-------\n\n`;
       await complete(messageToSend);
       setShowWorth(true);
+      setIsLoadingResume(false);
     };
 
     if (resumeText !== '') {
@@ -42,6 +42,7 @@ const ResumeAnalyzerApp = () => {
         <ResumeWorth resumeWorth={completion} />
       )}
       {error && <p className={styles.errorMessage}>{error.message}</p>}
+      <p>Built by <a href="">Zaurbek Stark</a></p>
     </div>
   );
 };

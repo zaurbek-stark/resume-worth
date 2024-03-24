@@ -64,8 +64,6 @@ const ResumeUploader: React.FC<Props> = ({ setResumeText, setIsLoading }) => {
       await readResume(file);
     } catch (error) {
       setError('There was an error reading the resume. Please try again.');
-    } finally {
-      setIsLoading(false);
     }
   };
 
