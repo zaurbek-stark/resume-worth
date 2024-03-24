@@ -3,6 +3,16 @@
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  padding: 20px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.fileUploadBtnContainer.dragOver {
+  border-color: #ffc75d;
+  background-color: #f7ff0012;
+  box-shadow: 0 0 10px rgb(255 199 93 / 22%);
 }
 
 .instructionsText {

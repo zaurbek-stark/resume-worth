@@ -8,12 +8,7 @@ const ResumeAnalyzerApp = () => {
   const [showWorth, setShowWorth] = useState(false);
   const [isLoadingResume, setIsLoadingResume] = useState(false);
   const [resumeText, setResumeText] = useState<string>('');
-  const {
-    completion,
-    isLoading,
-    complete,
-    error,
-  } = useCompletion({
+  const { completion, isLoading, complete, error } = useCompletion({
     api: '/api/resume',
   });
 
