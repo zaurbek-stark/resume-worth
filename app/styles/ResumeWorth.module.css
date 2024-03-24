@@ -71,3 +71,22 @@
   left: 0;
   top: -5px;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 16px 0;
+  }
+
+  .subtitle {
+    margin-bottom: 12px;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .column {
+    padding: 0;
+  }
+}

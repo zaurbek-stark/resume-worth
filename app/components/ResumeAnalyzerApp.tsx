@@ -31,7 +31,7 @@ const ResumeAnalyzerApp = () => {
   }, [resumeText]);
 
   return (
-    <div>
+    <div className={styles.analyzerWrapper}>
       {!showWorth ? (
         <div className={styles.uploaderWrapper}>
           <p className={styles.instructionsText}>Upload your resume to know your worth.</p>
@@ -42,7 +42,7 @@ const ResumeAnalyzerApp = () => {
         <ResumeWorth resumeWorth={completion} />
       )}
       {error && <p className={styles.errorMessage}>{error.message}</p>}
-      <p>Built by <a href="">Zaurbek Stark</a></p>
+     
     </div>
   );
 };

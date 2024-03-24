@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  color: white;
+  display: flex;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 920px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logoBox {
+  padding-top: 50px;
+  height: 120px;
+}
+
+.logoBox img {
+  margin: auto;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centeredContent {
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: #ffc615;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 20px;
+  }
+}
