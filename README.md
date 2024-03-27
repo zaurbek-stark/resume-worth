@@ -1,6 +1,6 @@
 # Resume Worth Calculator
 
-> This app was built as part of a challenge in the **Codebender AI Bootcamp**. Learn how to build projects like these [here](https://lastcodebender.com/bootcamp).
+> **⚡️ This app was built as part of a challenge in the [**Codebender AI Bootcamp**](https://lastcodebender.com/bootcamp). Learn how to build projects like these [here](https://lastcodebender.com/bootcamp).**
 
 This app estimates the dollar worth of your resume (i.e. how much money you can make with your resume).
 
